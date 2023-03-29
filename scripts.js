@@ -58,14 +58,14 @@ if (amphibian.toLowerCase() === "yes" || amphibian.toLowerCase() === "y") {
   //  console.log("That's right! James spends way too much time thinking about toads.");
   alert("That's right! James spends way too much time thinking about toads.");
 } else {
-  // console.log("Too bad! That's incorrect.");
-  alert("Too bad! That's incorrect.");
+  // console.log("Not the greatest start...");
+  alert("Not the greatest start...");
 }
 
 let politics = prompt(
   "Is James interested in a career in politics? (Please answer either yes/no or y/n)"
 );
-if (student.toLowerCase() === "yes" || student.toLowerCase() === "y") {
+if (politics.toLowerCase() === "yes" || politics.toLowerCase() === "y") {
   //  console.log("You're on a roll! Impressive.");
   alert("You're on a roll! Impressive.");
 } else {
@@ -73,10 +73,19 @@ if (student.toLowerCase() === "yes" || student.toLowerCase() === "y") {
   alert("Unlucky! That's the wrong answer.");
 }
 
+let coding = prompt("Is James currently learning to code?");
+if (coding.toLowerCase() === "yes" || coding.toLowerCase() === "y") {
+  //  console.log("You're on a roll! Impressive.");
+  alert("Super! That's right!");
+} else {
+  // console.log("Unlucky! That's the wrong asnwer");
+  alert("You suck!");
+}
+
 let diploma = prompt(
   "Final question: does James have a diploma in Human Resource Practice? (Please answer either yes/no or y/n)"
 );
-if (student.toLowerCase() === "yes" || student.toLowerCase() === "y") {
+if (diploma.toLowerCase() === "yes" || diploma.toLowerCase() === "y") {
   //  console.log("Woo! That's correct, thanks for completing the quiz!");
   alert("Woo! That's correct, thanks for completing the quiz!");
 } else {
