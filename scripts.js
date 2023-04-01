@@ -91,7 +91,7 @@ if (retail.toLowerCase() === "no" || retail.toLowerCase() === "n") {
 questionThree();
 
 function questionFour(){
-let coding = prompt("Is James currently learning to code?");
+let coding = prompt("Is James currently learning to code? (Please answer either yes/no or y/n)");
 if (coding.toLowerCase() === "yes" || coding.toLowerCase() === "y") {
   //  console.log("You're on a roll! Impressive.");
   userScore++;
