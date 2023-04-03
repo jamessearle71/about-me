@@ -1,45 +1,5 @@
 "use strict";
 
-// backslash obviates the semantic properties of certain characters from statements; &&, ===, and != are comparison operators, whereby a variable compares to a statement
-// let answer1 = confirm("Are you ready to rumble?");
-// if (answer1 === true) {
-//   console.log("Let's get ready to rumble");
-// } else {
-//   console.log("Oh, well!");
-// }
-
-// let first = false;
-// let second = false;
-// let third = false;
-
-// two pipes '||' mean 'or'
-// if (first && third) {
-//   console.log("first and third were both true!");
-// } else if (first || second) {
-//   console.log("first or second was true!");
-// } else if (third) {
-//   console.log("first and second were false but the third was true");
-// } else {
-//   console.log("Were any of my variables true");
-// }
-
-// let color = prompt("What is your favourite colour?");
-
-// switch (color.toLocaleLowerCase()) {
-//   case "red":
-//     console.log("Your favourite colour is red");
-//     break;
-//   case "blue":
-//     console.log("Your favourite colour is blue");
-//     break;
-//   case "green":
-//     console.log("Your favourite colour is green");
-//     break;
-//   default:
-//     console.log("I don't know what your favourite colour is");
-//     break;
-// }
-
 alert("Welcome to my guessing game!");
 
 let userScore = 0;

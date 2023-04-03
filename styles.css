@@ -70,8 +70,6 @@ a {
   padding: 2rem 0;
 }
 
-/* This is the media query that changes styles when the viewport is 700px or more; can be applied in the initial 'header.container' with display: flex; / flex-direction: column; */
-
 @media (min-width: 700px) {
   .header-container {
     text-align: left;
