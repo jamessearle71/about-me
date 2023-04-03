@@ -7,4 +7,4 @@
 
 # Lab 05b
 
-![Lighthouse screenshot](Screenshot 2023-04-03 18.10.35.png)
+![Lighthouse screenshot](images/Screenshot%202023-04-03%2018.10.35.png)
