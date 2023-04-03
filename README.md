@@ -7,4 +7,4 @@
 
 # Lab 05b
 
-![Lighthouse screenshot](http://full/path/to//Screenshot2023-04-0318.10.35.png)
+![Lighthouse screenshot](Screenshot 2023-04-03 18.10.35.png)
